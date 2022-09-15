@@ -1,0 +1,89 @@
+a{
+    text-decoration: none;
+    color: aliceblue;
+    align-self: center;
+    border-radius: 10%;
+}
+body{
+    background-color: rgb(225, 172, 12);
+    font-family: cursive;
+    font-size: x-large;
+    max-width: 70%;
+    margin: auto;
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(115, 38, 9);
+    font-weight: bolder;
+    border-radius: 50%;
+}
+h1:hover{
+    background-color: rgba(237, 114, 114, 0.992);
+    border-radius: 50%;
+}
+h3{
+    align-self: center;
+}
+.colunas{
+    border: 1px solid;
+    border-radius: 5%;
+    vertical-align: middle;
+    display: list-item;
+}
+.item{
+	display: flex;
+	border: 1px solid #ccc;
+    background-color: coral;
+    margin: 5px;
+    border-radius: 10%;
+}
+p{
+    vertical-align: middle;
+    width: 20em;
+    text-align: -webkit-center;
+
+}
+img.foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+img{
+    max-width: 200px;
+    max-height: 200px;
+}
+footer{
+    display: grid;
+}
+.social{
+    align-self: auto;
+    max-width: 25px;
+    max-height: 25px;
+}
+.social:hover{
+    background-color: rgba(237, 114, 114, 0.992);
+    border-radius: 40%;
+}
+.msg{
+    border: 1px solid #ccc;
+    background-color: rgb(115, 38, 9);
+    margin: 5px;
+    border-radius: 50%;
+}
+.zap{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+}
+.zap:hover{
+    background-color: rgba(237, 114, 114, 0.992);
+    border-radius: 40%;
+}

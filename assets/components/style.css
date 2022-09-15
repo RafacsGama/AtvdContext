@@ -1,0 +1,86 @@
+
+body{
+    background-color: rgb(225, 172, 12);
+    font-family: cursive;
+    font-size: x-large;
+    max-width: 70%;
+    margin: auto;
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(115, 38, 9);
+    font-weight: bold;
+    border-radius: 50%;
+    text-size-adjust: none;
+}
+h2{
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: bold;
+    border-radius: 100px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    align-self: center;
+    border-radius: 10%;
+}
+div{
+    display: inline-flexbox;
+}    
+.menu{
+   display: grid;
+   background-color: coral;
+   border-radius: 100px;
+
+}
+.menu:hover{
+   background-color: rgba(237, 114, 114, 0.992);
+   border: 1px solid #ccc;
+   border-radius: 100px;
+}
+img.foto{
+   flex-wrap: wrap;
+   max-width: 200px;
+   max-height: 200px;
+   object-fit: fill;
+}
+img{
+    align-content: center;
+    border-radius: 50%;
+}
+footer{
+    display: grid;
+}
+.social{
+    align-self: auto;
+    max-width: 25px;
+    max-height: 25px;
+}
+.social:hover{
+    background-color: rgba(237, 114, 114, 0.992);
+    border-radius: 40%;
+}
+.msg{
+    border: 1px solid #ccc;
+    background-color: rgb(115, 38, 9);
+    margin: 5px;
+    border-radius: 50%;
+}
+.zap{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+}
+.zap:hover{
+    background-color: rgba(237, 114, 114, 0.992);
+    border-radius: 40%;
+}
